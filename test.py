@@ -1,8 +1,10 @@
+"""
+demo.py - A simple hello world function.
+"""
+
 def hello():
-    """
-    this is demo
-    """
+    """Returns a greeting string."""
     return "hello dosto"
 
-
-hello()
+if __name__ == "__main__":
+    print(hello())
